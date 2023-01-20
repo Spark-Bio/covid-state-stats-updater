@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
-gem 'activesupport', '~> 6.0', '>= 6.0.2.2'
+gem 'activesupport', '~> 6.1'
 gem 'carmen', '~> 1.0', '>= 1.0.2'
 gem 'faraday', '~> 1.0', '>= 1.0.1'
 gem 'faraday_middleware', '~> 1.0'
